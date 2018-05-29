@@ -16,10 +16,9 @@ function multiplyTwo(num1,num2) {
 // --------- TEST 4 ---------
 function reverseWord(str) {
     return str.split("").reverse().join("");
-    //splits word into the individual characters. This uses every space as a break point to breakup the word.
-    //reverse is an array method
-    //join converts back to a string
-}
+} //splits word into the individual characters. This uses every space as a break point to breakup the word.
+//reverse is an array method
+//join converts back to a string
 
 // --------- TEST 5 ---------
 function increaseByPercentage (per,inc) {
